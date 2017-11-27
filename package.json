@@ -1,0 +1,31 @@
+{
+  "name": "Chat-App",
+  "version": "1.0.0",
+  "description": "Realtime chatting application by socket.io",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "devel": "nodemon app.js -e js,html",
+    "test": "jest",
+    "test-watch": "nodemon --exec 'yarn run test'"
+  },
+  "engines": {
+    "node": "8.9.1"
+  },
+  "author": "strwrd",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.2",
+    "moment": "^2.19.2",
+    "socket.io": "^2.0.4"
+  },
+  "devDependencies": {
+    "eslint": "^4.12.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jsx-a11y": "^6.0.2",
+    "eslint-plugin-react": "^7.5.1",
+    "jest": "^21.2.1",
+    "nodemon": "^1.12.1"
+  }
+}
