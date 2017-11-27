@@ -6,13 +6,13 @@ Example realtime chatting application using socket.io
 2. yarn install
 3. Done !
 
-###Here some command 
+### Here some command 
 #### Start App
 ````
 yarn run start
 ````
 
-####Start Chat-App at Development stage
+#### Start Chat-App at Development stage
 ````
 yarn run devel
 ````
