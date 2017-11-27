@@ -1,6 +1,11 @@
 # Chat-App
 Example realtime chatting application using socket.io
 
+### Demo App :
+````
+https://stormy-gorge-28808.herokuapp.com/
+````
+
 ### Getting Started : 
 1. git clone https://github.com/Strwrd/Chat-App
 2. yarn install
